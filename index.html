@@ -1,0 +1,1283 @@
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- NGSX ---------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- Head ---------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Home - NGSX</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- Favicons ------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+  <link href="https://i.ibb.co/Q7TV27qF/logo-1.png" rel="icon">
+  <link href="https://i.ibb.co/Q7TV27qF/logo-1.png" rel="apple-touch-icon">
+
+<!-- /Favicons ----------------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- Fonts --------------------------------------------------------------------------------------------------------------------------------------------------------->
+  
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<!-- /Fonts -------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- Vendor CSS Files ---------------------------------------------------------------------------------------------------------------------------------------------->
+
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+<!-- /Vendor CSS Files --------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- Main CSS File ------------------------------------------------------------------------------------------------------------------------------------------------->
+
+  <link href="assets/css/main.css" rel="stylesheet">
+
+<!-- /Main CSS File ------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- Contact Form CSS ---------------------------------------------------------------------------------------------------------------------------------------------->
+
+  <style>
+    .info-container, .contact-form-container {
+      background-color: #fff;
+      padding: 40px;
+      border-radius: 8px;
+      margin: 10px; 
+      box-shadow: 0 0 25px rgba(0, 0, 0, 0.15); 
+      height: calc(100% - 20px); 
+    }
+
+    .custom-info-item {
+      background-color: #f8f9fa;
+      padding: 30px;
+      border-radius: 8px;
+      height: 100%;
+      transition: all 0.3s ease;
+    }
+    
+    .custom-info-item i {
+      color: rgb(60, 160, 200);
+      font-size: 2rem;
+      margin-bottom: 15px;
+      display: inline-block;
+    }
+
+    .contact-form-group .form-label {
+      font-weight: 500;
+      color: #333;
+      display: block;
+      margin-bottom: 5px;
+      text-align: left; 
+    }
+
+    .contact-form-group .input-group {
+      border: 1px solid #ced4da;
+      border-radius: 5px;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      background-color: #fff;
+    }
+
+    .contact-form-group .input-group-text {
+      background-color: transparent;
+      border: none;
+      padding-left: 15px;
+      padding-right: 10px;
+    }
+
+    .contact-form-group .input-group-text i {
+      color: rgb(60, 160, 200); 
+      font-size: 1.1rem;
+    }
+
+    .contact-form-group .form-control {
+      border: none;
+      border-radius: 0 5px 5px 0;
+      padding-left: 5px;
+      height: 45px; 
+      box-shadow: none;
+      font-size: 14px; 
+      color: #333;
+    }
+
+    .contact-form-group .form-control:focus {
+      box-shadow: none;
+      outline: none;
+    }
+
+    .contact-form-group .form-control::placeholder {
+      color: #a0a0a0 !important;
+      font-weight: 400 !important;
+      opacity: 1 !important;
+    }
+    
+    .contact-form-group textarea.form-control {
+        height: auto;
+        padding-top: 10px;
+    }
+  </style>
+
+<!-- /Contact Form CSS --------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- Font for Home Page CSS ---------------------------------------------------------------------------------------------------------------------------------------->
+
+<style>
+  /* Header Button Fix - Text ek line me dikhane ke liye */
+  .header .btn-getstarted {
+    white-space: nowrap !important; 
+    padding: 8px 16px !important; 
+  }
+
+  /* Universal Mobile & Tablet Responsiveness */
+  @media (max-width: 991px) {
+    /* Kisi bhi tarah ke horizontal overflow/scroll ko rokne ke liye */
+    html, body {
+      overflow-x: hidden !important;
+      width: 100% !important;
+    }
+
+    /* Hero Main Container Alignment - Screen ke center me fix karne ke liye */
+    #hero .carousel-container {
+      width: 100% !important;
+      max-width: 100% !important;
+      padding: 0 25px !important; 
+      box-sizing: border-box !important;
+      text-align: center !important;
+      left: 0 !important;
+      right: 0 !important;
+      margin: 0 auto !important;
+    }
+    
+    /* WELCOME TO NGSX Fix - Iska nowrap hata diya taaki text screen ke bahar na bhaage */
+    #hero .carousel-container h2 {
+      font-size: 24px !important; 
+      white-space: normal !important; 
+      word-wrap: break-word !important;
+      margin-bottom: 15px !important;
+      font-weight: 700 !important;
+      display: block !important;
+    }
+    
+    /* Description Paragraph Fix - Ab text pichkega nahi aur khoobsurat 3 lines me aayega */
+    #hero .carousel-container h1 {
+      font-size: 15px !important; 
+      line-height: 1.6 !important; 
+      margin: 0 auto 25px auto !important;
+      padding: 0 !important; 
+      width: 100% !important;
+      max-width: 92% !important; /* Isse text ko failne ki puri jagah milegi */
+      word-wrap: break-word !important;
+      display: block !important;
+      font-weight: 400 !important;
+    }
+
+    #hero .btn-get-started {
+      padding: 8px 24px !important;
+      font-size: 14px !important;
+      display: inline-block !important;
+    }
+  }
+
+  /* Extra Small Devices (Chote Android & iPhones ke liye special tuning) */
+  @media (max-width: 480px) {
+    .header .btn-getstarted {
+      font-size: 12.5px !important;
+      padding: 6px 12px !important;
+      margin-right: 10px !important;
+    }
+
+    .mobile-nav-toggle {
+      margin-right: 5px !important;
+      font-size: 26px !important;
+    }
+
+    #hero .carousel-container h2 {
+      font-size: 22px !important; /* Chote screens par perfect fit hone ke liye size control */
+    }
+    
+    #hero .carousel-container h1 {
+      font-size: 14px !important;
+      max-width: 100% !important; /* Poori width use karega jisse lines kam ho jayengi */
+      line-height: 1.5 !important;
+    }
+  }
+</style>
+
+<!-- /Font for Home Page CSS --------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+</head>
+
+<!-- /Head --------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- Body ---------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- NGSX Logo ----------------------------------------------------------------------------------------------------------------------------------------------------->
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <img src="https://i.ibb.co/p61V5S7v/logo-2.png" alt="NGSX Logo">
+      </a>
+
+<!-- /NGSX Logo ---------------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="about-us.html">About Us</a></li>
+    
+          <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="managed-services.html">Managed Services</a></li>
+              
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="network-planning.html">Network Planning</a></li>
+              <li><a href="noc-services.html">NOC Services</a></li>
+              <li><a href="network-monitoring.html">Network Monitoring</a></li>
+              <li><a href="ticket-monitoring.html">Ticket Monitoring</a></li>
+              <li><a href="field-enginner-service.html">Field Engineer Servicesn</a></li>
+            </ul>
+          </li>
+          <li><a href="careers.html">Careers</a></li>
+
+          <li><a href="features.html">Features</a></li>
+          
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="index.html#contact">Get Started</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- Hero Section -------------------------------------------------------------------------------------------------------------------------------------------------->
+
+    <section id="hero" class="hero section dark-background">
+
+      <div id="hero-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+
+        <div class="carousel-item active">
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- Video --------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+          <video autoplay loop muted playsinline style="position: absolute; top: 50%; left: 50%; width: 100%; height: 100%; min-width: 100%; min-height: 100%; transform: translate(-50%, -50%); object-fit: cover; object-position: center center; z-index: -1;">
+            <source src="assets/video/bg-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+
+<!-- /Video -------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+          <div class="carousel-container">
+            <h2>WELCOME TO NGSX</h2>
+            <h1>A Journey of serving support Network managed services We deliver Managed Services support to IT Network Domain.</h1>
+            <a href="#contact" class="btn-get-started">Get Started</a>
+          </div>
+        </div><!-- End Carousel Item -->
+
+        
+
+      </div>
+
+    </section>
+
+<!-- /Hero Section ------------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>    
+    
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- About Us ------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+    <section id="about" class="about section">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About Us</h2>
+        <p>NGSX, we combine innovation, expertise, and reliability to deliver technology solutions that help businesses grow with confidence.</p>
+      </div><div class="container">
+
+        <div class="row gy-3">
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- About Image --------------------------------------------------------------------------------------------------------------------------------------------------->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <img src="https://i.ibb.co/1t3Qfgh6/about.png" alt="" class="img-fluid">
+          </div>
+
+<!-- /About Image -------------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="about-content ps-0 ps-lg-3">
+              <h3>Building Technology Delivering Trust.</h3>
+              <p class="fst-italic">
+                NGSX delivers managed IT services,compliance services, managed security and cloud management. We help our clients build and implement technologies they want.
+                Whether you’re looking to outsource your IT functions, augment your existing staff or benefit from our specialized industry expertise, our customers gain access to best-in-class technology – delivered by a best-in-class team.
+                such as supplying them with the ‘equipment’ they need. Alternatively, they might want to partner with us and allow us to fill holes in their understanding. Or, they might want us to take care of everything, helping to agree on the destination and guiding them every step of the way. From the small and simple, to the large and complex, we want a life-long partnership, a company our clients can rely on.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row mt-5">
+          <div class="col-15 text-center" data-aos="fade-up" data-aos-delay="300">
+            <a href="about-us.html" class="btn px-4 py-1.5" style="background-color: rgb(60, 160, 200); border-color: rgb(60, 160, 200); color: #ffffff; border-radius: 5px; font-weight: 500;">
+              More <i class="bi bi-arrow-right ms-2"></i>
+            </a>
+          </div>
+        </div>
+
+    </section>
+
+<!-- /About Us ----------------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- Services Section ---------------------------------------------------------------------------------------------------------------------------------------------->
+
+    <section id="services" class="services section">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Services</h2>
+        <p>NGSX delivers enterprise-grade networking, monitoring, and support services to keep your business connected and secure.</p>
+      </div><div class="container">
+
+        <div class="row g-5">
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item item-cyan position-relative shadow rounded p-4">
+              <i class="bi bi-gear-fill icon"></i>
+              <div>
+                <h3>Managed Services</h3>
+                <p>Comprehensive Managed Services for Proactive Monitoring, Network Optimization, and Business Continuity.</p>
+                <a href="managed-services.html" class="read-more stretched-link">Learn More <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+          </div><div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item item-orange position-relative shadow rounded p-4">
+              <i class="bi bi-diagram-3 icon"></i>
+              <div>
+                <h3>Network Planning</h3>
+                <p>Strategic network planning that ensures optimal performance, security, and seamless business connectivity.</p>
+                <a href="network-planning.html" class="read-more stretched-link">Learn More <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+          </div><div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item item-teal position-relative shadow rounded p-4">
+              <i class="bi bi-hdd-network icon"></i>
+              <div>
+                <h3>NOC Services</h3>
+                <p>Transforming your network performance with seamless, enterprise-grade NOC solutions.</p>
+                <a href="noc-services.html" class="read-more stretched-link">Learn More <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+          </div><div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item item-red position-relative shadow rounded p-4">
+              <i class="bi bi-activity icon"></i>
+              <div>
+                <h3>Network Monitoring</h3>
+                <p>Real-time network monitoring and intelligent alerting to maintain optimal performance and operational efficiency.</p>
+                <a href="network-monitoring.html" class="read-more stretched-link">Learn More <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+          </div><div class="col-lg-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item item-indigo position-relative shadow rounded p-4">
+              <i class="bi bi-ticket-detailed icon"></i>
+              <div>
+                <h3>Ticket Monitoring</h3>
+                <p>Proactive Ticket Monitoring for Faster Issue Resolution and Uninterrupted Network Operations.</p>
+                <a href="ticket-monitoring.html" class="read-more stretched-link">Learn More <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+          </div><div class="col-lg-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item item-pink position-relative shadow rounded p-4">
+              <i class="bi bi-tools icon"></i>
+              <div>
+                <h3>Field Engineer Services</h3>
+                <p>Delivering Expert On-Site Network Deployment, Maintenance, and Technical Support Services.</p>
+                <a href="field-enginner-service.html" class="read-more stretched-link">Learn More <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div></div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+      </div>
+
+    </section>
+
+<!-- /Services Section --------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- Features Section ---------------------------------------------------------------------------------------------------------------------------------------------->
+
+    <section id="features" class="features section light-background">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Features</h2>
+        <p>NGSX secures your data and networks with encryption, firewalls, and real-time threat detection, ensuring reliable and seamless protection.</p>
+      </div><div class="container">
+
+        <div class="row gy-4 justify-content-between features-item">
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- Feature-1 Image ----------------------------------------------------------------------------------------------------------------------------------------------->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <img src="https://i.ibb.co/bgkzsCF0/feature-1.png" class="img-fluid" alt="Scalable Enterprise Networks">
+          </div>
+
+<!-- /Feature-1 Image ---------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+          
+          <div class="col-lg-5 d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="content">
+              <h3>Scalable Enterprise Networks</h3>
+              <p>
+                Design, deploy, and manage robust corporate networks. Our infrastructure scales dynamically to meet growing demands, offering low-latency connectivity for all branch locations.
+              </p>
+              <a href="features.html" class="btn more-btn" style="background-color: #3ca0c8; color: #ffffff; padding: 8px 24px; border-radius: 4px; display: inline-block; text-decoration: none; font-weight: 500;">Learn More</a>
+            </div>
+          </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+        </div><div class="row gy-4 justify-content-between features-item">
+
+          <div class="col-lg-5 d-flex align-items-center order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="content">
+              <h3>Centralized Cloud Management & Analytics</h3>
+              <p>
+                Orchestrate your entire network from anywhere using our intuitive cloud platform. Gain complete visibility, track performance metrics, and receive proactive maintenance alerts.
+              </p>
+              <ul style="list-style: none; padding-left: 0;">
+                <li style="margin-bottom: 10px;"><i class="bi bi-bar-chart-line" style="color: #3ca0c8; margin-right: 10px;"></i> Comprehensive Traffic Analytics</li>
+                <li style="margin-bottom: 10px;"><i class="bi bi-cloud" style="color: #3ca0c8; margin-right: 10px;"></i> Unified Device Configuration</li>
+                <li style="margin-bottom: 10px;"><i class="bi bi-exclamation-circle" style="color: #3ca0c8; margin-right: 10px;"></i> Advanced Threat Detection Correlation</li>
+              </ul>
+              <a href="features.html" class="btn more-btn" style="background-color: #3ca0c8; color: #ffffff; padding: 8px 24px; border-radius: 4px; display: inline-block; text-decoration: none; font-weight: 500;">Learn More</a>
+            </div>
+
+          </div>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- Feature-2 Image ----------------------------------------------------------------------------------------------------------------------------------------------->
+
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="200">
+            <img src="https://i.ibb.co/3ykgJFB5/feature-2.png" class="img-fluid" alt="Centralized Cloud Management & Analytics">
+          </div>
+
+<!-- /Feature-2 Image ---------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+        </div></div>
+
+    </section>
+
+<!-- /Features Section --------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- Why Us Section ------------------------------------------------------------------------------------------------------------------------------------------------>
+
+
+
+    <section id="why-us" class="why-us section" style="background-color: #f8f9fa;">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Why Us</h2>
+        <p>Discover the professional advantages that make our enterprise network solutions the right choice for your business.</p>
+      </div><div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="card-item text-center p-4 h-100" 
+                 style="background: #ffffff; 
+                        border-radius: 12px; 
+                        box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.08); 
+                        border: 1px solid rgba(0,0,0,0.03);
+                        transition: all 0.3s ease;">
+              <div class="why-icon mb-4 d-flex align-items-center justify-content-center" 
+                   style="width: 80px; height: 80px; background: rgba(13, 110, 253, 0.05); border-radius: 50%; margin: 0 auto; color: rgb(60, 160, 200); font-size: 2.2rem;">
+                <i class="bi bi-shield-lock"></i>
+              </div>
+              <span style="font-size: 1.2rem; font-weight: 700; color: rgb(60, 160, 200); display: block; margin-bottom: 8px;">01</span>
+              <h4 class="mb-3"><a class="stretched-link" style="color: #111111; text-decoration: none; font-weight: 600;">Advanced Security</a></h4>
+              <p style="color: #666666; font-size: 0.95rem; line-height: 1.6;">Protect your business with enterprise-grade encryption, intelligent firewalls, and 24/7 threat monitoring to keep your data safe.</p>
+            </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+          </div><div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="card-item text-center p-4 h-100" 
+                 style="background: #ffffff; 
+                        border-radius: 12px; 
+                        box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.08); 
+                        border: 1px solid rgba(0,0,0,0.03);
+                        transition: all 0.3s ease;">
+              <div class="why-icon mb-4 d-flex align-items-center justify-content-center" 
+                   style="width: 80px; height: 80px; background: rgba(13, 110, 253, 0.05); border-radius: 50%; margin: 0 auto; color: rgb(60, 160, 200); font-size: 2.2rem;">
+                <i class="bi bi-cloud-arrow-up"></i>
+              </div>
+              <span style="font-size: 1.2rem; font-weight: 700; color: rgb(60, 160, 200); display: block; margin-bottom: 8px;">02</span>
+              <h4 class="mb-3"><a class="stretched-link" style="color: #111111; text-decoration: none; font-weight: 600;">Cloud & Infrastructure</a></h4>
+              <p style="color: #666666; font-size: 0.95rem; line-height: 1.6;">Seamlessly manage, migrate, and optimize your cloud environment with scalable solutions that grow with your business.</p>
+            </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+          </div><div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="card-item text-center p-4 h-100" 
+                 style="background: #ffffff; 
+                        border-radius: 12px; 
+                        box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.08); 
+                        border: 1px solid rgba(0,0,0,0.03);
+                        transition: all 0.3s ease;">
+              <div class="why-icon mb-4 d-flex align-items-center justify-content-center" 
+                   style="width: 80px; height: 80px; background: rgba(13, 110, 253, 0.05); border-radius: 50%; margin: 0 auto; color: rgb(60, 160, 200); font-size: 2.2rem;">
+                <i class="bi bi-diagram-3"></i>
+              </div>
+              <span style="font-size: 1.2rem; font-weight: 700; color: rgb(60, 160, 200); display: block; margin-bottom: 8px;">03</span>
+              <h4 class="mb-3"><a class="stretched-link" style="color: #111111; text-decoration: none; font-weight: 600;">Reliable Network Support</a></h4>
+              <p style="color: #666666; font-size: 0.95rem; line-height: 1.6;">High-performance networking, proactive maintenance, and expert technical support ensure maximum uptime and uninterrupted connectivity.</p>
+            </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+          </div></div>
+
+      </div>
+
+    </section>
+
+<!-- /Why Us Section ----------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- Networking Devices Section ------------------------------------------------------------------------------------------------------------------------------------>
+
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Networking Devices</h2>
+        <p>Essential Networking Devices for Reliable Connectivity to Build Faster, Smarter, and Secure Network Infrastructure.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-app">Routers</li>
+            <li data-filter=".filter-product">Switches</li>
+            <li data-filter=".filter-branding">Cables</li>
+            <li data-filter=".filter-books">Firewalls</li>
+          </ul>
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="portfolio-content h-100">
+                <a href="https://i.ibb.co/93NDY2b2/cisco-router.png" data-gallery="portfolio-gallery-app" class="glightbox"><img src="https://i.ibb.co/93NDY2b2/cisco-router.png" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a title="More Details">Router</a></h4>
+                </div>
+              </div>
+            </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <div class="portfolio-content h-100">
+                <a href="https://i.ibb.co/spLdsMQL/cisco-switch.png" data-gallery="portfolio-gallery-app" class="glightbox"><img src="https://i.ibb.co/spLdsMQL/cisco-switch.png" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a title="More Details">Switch</a></h4>
+                </div>
+              </div>
+            </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <div class="portfolio-content h-100">
+                <a href="https://i.ibb.co/Hpg7nPyF/ethernet-cable.png" data-gallery="portfolio-gallery-app" class="glightbox"><img src="https://i.ibb.co/Hpg7nPyF/ethernet-cable.png" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a title="More Details">Ehernet Cable</a></h4>
+                </div>
+              </div>
+            </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+              <div class="portfolio-content h-100">
+                <a href="https://i.ibb.co/qL2LCnqg/fortigate-firewall.png" data-gallery="portfolio-gallery-app" class="glightbox"><img src="https://i.ibb.co/qL2LCnqg/fortigate-firewall.png" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a title="More Details">Fortigate Firewall</a></h4>
+                </div>
+              </div>
+            </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="portfolio-content h-100">
+                <a href="https://i.ibb.co/mF2F5kvD/juniper-router.png" data-gallery="portfolio-gallery-app" class="glightbox"><img src="https://i.ibb.co/mF2F5kvD/juniper-router.png" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a title="More Details">Router</a></h4>
+                </div>
+              </div>
+            </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <div class="portfolio-content h-100">
+                <a href="https://i.ibb.co/8DcB4sd0/juniper-switch.png" data-gallery="portfolio-gallery-app" class="glightbox"><img src="https://i.ibb.co/8DcB4sd0/juniper-switch.png" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a title="More Details">Switch</a></h4>
+                </div>
+              </div>
+            </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <div class="portfolio-content h-100">
+                <a href="https://i.ibb.co/nqFnCvWN/coaxial-cable.png" data-gallery="portfolio-gallery-app" class="glightbox"><img src="https://i.ibb.co/nqFnCvWN/coaxial-cable.png" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a title="More Details">Coaxial Cable</a></h4>
+                </div>
+              </div>
+            </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+              <div class="portfolio-content h-100">
+                <a href="https://i.ibb.co/tpt59JV7/checkpoint-firewall.png" data-gallery="portfolio-gallery-app" class="glightbox"><img src="https://i.ibb.co/tpt59JV7/checkpoint-firewall.png" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a title="More Details">CheckPoint Firewall</a></h4>
+                </div>
+              </div>
+            </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="portfolio-content h-100">
+                <a href="https://i.ibb.co/NgBrFFp6/netgear-router.png" data-gallery="portfolio-gallery-app" class="glightbox"><img src="https://i.ibb.co/NgBrFFp6/netgear-router.png" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a title="More Details">Router</a></h4>
+                </div>
+              </div>
+            </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <div class="portfolio-content h-100">
+                <a href="https://i.ibb.co/zTkP0Nb1/netgear-switch.png" data-gallery="portfolio-gallery-app" class="glightbox"><img src="https://i.ibb.co/zTkP0Nb1/netgear-switch.png" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a title="More Details">Switch</a></h4>
+                </div>
+              </div>
+            </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <div class="portfolio-content h-100">
+                <a href="https://i.ibb.co/wFcPzcLd/fiber-optic-cable.png" data-gallery="portfolio-gallery-app" class="glightbox"><img src="https://i.ibb.co/wFcPzcLd/fiber-optic-cable.png" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a title="More Details">Fiber Optic Cable</a></h4>
+                </div>
+              </div>
+            </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+              <div class="portfolio-content h-100">
+                <a href="https://i.ibb.co/KpmHHQWH/paloalto-firewall.png" data-gallery="portfolio-gallery-app" class="glightbox"><img src="https://i.ibb.co/KpmHHQWH/paloalto-firewall.png" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a title="More Details">Palo Alto Firewall</a></h4>
+                </div>
+              </div>
+            </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+<!-- /Networking Devices Section ----------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- Contact Section ----------------------------------------------------------------------------------------------------------------------------------------------->   
+
+    <section id="contact" class="contact section" style="background-color: #ffffff;">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Ready to optimize your network infrastructure? Contact us today to learn how our enterprise solutions can drive your business forward.</p>
+      </div><div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 align-items-stretch">
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+          <div class="col-lg-6">
+            <div class="info-container">
+              <div class="row gy-4 h-100">
+                <div class="col-md-6">
+                  <div class="info-item text-center custom-info-item" data-aos="fade" data-aos-delay="200">
+                    <i class="bi bi-geo-alt"></i>
+                    <h3>Address</h3>
+                    <p>214,  Commerce Plaza, Char Rasta,</p>
+                    <p>Manpada Road, Dombivli (E ) 421201</p>
+                  </div>
+                </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+                <div class="col-md-6">
+                  <div class="info-item text-center custom-info-item" data-aos="fade" data-aos-delay="300">
+                    <i class="bi bi-telephone"></i>
+                    <h3>Call Us</h3>
+                    <p>+91 94209 40001</p>
+                    <p>+91 94209 40001</p>
+                    
+                  </div>
+                </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+                <div class="col-md-6">
+                  <div class="info-item text-center custom-info-item" data-aos="fade" data-aos-delay="400">
+                    <i class="bi bi-envelope"></i>
+                    <h3>Email Us</h3>
+                    <p>ngsxpvtltd@gmail.com</p>
+                    <p>ngsxpvtltd@gmail.com</p>
+                  </div>
+                </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+                <div class="col-md-6">
+                  <div class="info-item text-center custom-info-item" data-aos="fade" data-aos-delay="500">
+                    <i class="bi bi-clock"></i>
+                    <h3>Open Hours</h3>
+                    <p>Monday - Friday</p>
+                    <p>10:00AM - 05:00PM</p>
+                  </div>
+                </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 contact-form-group">
+            <div class="contact-form-container">
+              <form id="contactForm" class="needs-validation" novalidate data-aos="fade-up" data-aos-delay="200">
+                <div class="row gy-4">
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+                  <div class="col-12 mb-2">
+                    <label for="fullName" class="form-label">Full Name</label>
+                    <div class="input-group">
+                      <span class="input-group-text"><i class="bi bi-person"></i></span>
+                      <input type="text" name="NAME" id="fullName" class="form-control" placeholder="Enter Full Name" required>
+                      <div class="invalid-feedback w-100 mt-1">Please enter your name.</div>
+                    </div>
+                  </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+                  <div class="col-md-12 mb-2">
+                    <label for="emailAddress" class="form-label">Email Address</label>
+                    <div class="input-group">
+                      <span class="input-group-text"><i class="bi bi-envelope"></i></span>
+                      <input type="email" class="form-control" name="EMAIL" id="emailAddress" placeholder="Enter Email ID" required pattern="[^@\s]+@[^@\s]+\.[^@\s]+">
+                      <div class="invalid-feedback w-100 mt-1">Please enter a valid email address.</div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-12 mb-2">
+                    <label for="mobileNumber" class="form-label">Mobile Number</label>
+                    <div class="input-group">
+                      <span class="input-group-text"><i class="bi bi-telephone"></i></span>
+                      <input type="tel" class="form-control" name="MOBILE" id="mobileNumber" placeholder="Enter Mobile Number" required pattern="^[789]\d{9}$" maxlength="10">
+                      <div class="invalid-feedback w-100 mt-1">10-digit number starting with 7, 8, or 9 is required.</div>
+                    </div>
+                  </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+                  <div class="col-12 mb-3">
+                    <label for="messageTextarea" class="form-label">Message</label>
+                    <div class="input-group">
+                      <textarea id="messageTextarea" class="form-control" name="MESSAGE" rows="6" placeholder="Enter Message" required></textarea>
+                      <div class="invalid-feedback w-100 mt-1">Please write a message.</div>
+                    </div>
+                  </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+                  <div class="col-12 text-center mt-3">
+                    <button type="submit" id="submitBtn" style="background-color: rgb(60, 160, 200); border: 0; padding: 12px 35px; color: #fff; border-radius: 4px; font-weight: 500; transition: 0.3s;">Send Message</button>
+                  </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+                </div>
+              </form>
+            </div>
+          </div></div>
+
+      </div>
+
+    </section>
+
+<!-- /Contact Section ---------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+  </main>
+
+<!-- /Main --------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- Success PopUp Code -------------------------------------------------------------------------------------------------------------------------------------------->
+
+  <div class="modal fade" id="successModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content border-0 shadow p-4 text-center">
+        <div class="modal-body">
+          <div class="mb-3">
+            <i class="bi bi-check-circle-fill" style="font-size: 4rem; color: rgb(60, 160, 200);"></i>
+          </div>
+          <h3 class="fw-bold text-dark mb-2">Message Sent!</h3>
+          <p class="text-muted">Thank you for contacting us. Your message has been successfully saved, and our team will get back to you soon.</p>
+          <button type="button" class="btn text-white px-5 py-2 mt-3" style="background-color: rgb(60, 160, 200); border-radius: 6px;" data-bs-dismiss="modal">Great!</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- /Success PopUp Code ------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- Subscribe PopUp ----------------------------------------------------------------------------------------------------------------------------------------------->
+
+<div class="modal fade" id="newsletterSuccessModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content border-0 shadow p-4 text-center">
+        <div class="modal-body">
+          <div class="mb-3">
+            <i class="bi bi-envelope-check-fill" style="font-size: 4rem; color: rgb(60, 160, 200);"></i>
+          </div>
+          <h3 class="fw-bold text-dark mb-2">Subscribed!</h3>
+          <p class="text-muted">Thank you for subscribing to our newsletter. You will receive our latest updates soon!</p>
+          <button type="button" class="btn text-white px-5 py-2 mt-3" style="background-color: rgb(60, 160, 200); border-radius: 6px;" data-bs-dismiss="modal">Awesome!</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- /Subscribe PopUp ---------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- Footer -------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+  <footer id="footer" class="footer dark-background">
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- NewsLatter ---------------------------------------------------------------------------------------------------------------------------------------------------->
+    
+    <div class="footer-newsletter">
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <div class="col-lg-6">
+            <h4>Join Our Newsletter</h4>
+            <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
+            <form id="newsletterForm" action="https://sheetdb.io/api/v1/yvu4ufyuny4n0" method="POST" class="needs-validation" novalidate>
+              <div class="newsletter-form">
+                <input type="email" name="data[EMAIL__]" id="newsletterEmail" required placeholder="Enter your email">
+                <input type="submit" id="newsletterBtn" value="Subscribe">
+              </div>
+              <div class="invalid-feedback text-start ms-3 mt-1" style="display: none;" id="newsletterError">Please enter a valid email address.</div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- /NewsLatter --------------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="d-flex align-items-center">
+            <span class="sitename">NGSX</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>NGSX Pvt. Ltd.</p>
+            <p>214,  Commerce Plaza, Char Rasta,</p>
+            <p>Manpada Road, Dombivli (E ) 421201</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+91 94209 40001</span></p>
+            <p><strong>Email:</strong> <span>ngsxpvtltd@gmail.com</span></p>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="index.html">Home</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="about-us.html">About us</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="index.html#services">Services</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="careers.html">Careers</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="features.html">Features</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="index.html#portfolio">Networking Devices</a></li>
+            
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="managed-services.html">Managed Services</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="network-planning.html">Network Planning</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="noc-services.html">NOC Services</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="network-monitoring.html">Network Monitoring</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="ticket-monitoring.html">Ticket Monitoring</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="field-enginner-service.html">Field Engineer Services</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-12">
+          <h4>Follow Us</h4>
+          <p>Follow Social Media Handles to Get all Notifications.</p>
+          <div class="social-links d-flex">
+            <a href="index.html"><i class="bi bi-instagram"></i></a>
+            <a href="index.html"><i class="bi bi-facebook"></i></a>
+            <a href="index.html"><i class="bi bi-twitter-x"></i></a>
+            <a href="index.html"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">NGSX</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        Designed by <a href="index.html">SR</a> Distributed by <a href="index.html" target="_blank">SR</a>
+      </div>
+    </div>
+
+  </footer>
+
+<!-- /Footer ------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- Vendor JS Files ----------------------------------------------------------------------------------------------------------------------------------------------->
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+<!-- /Vendor JS Files ---------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- Main JS File -------------------------------------------------------------------------------------------------------------------------------------------------->
+
+  <script src="assets/js/main.js"></script>
+
+<!-- /Main JS File ------------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- Contact JS Script --------------------------------------------------------------------------------------------------------------------------------------------->
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      'use strict';
+
+      // Yahan apna Google Script Web App URL ya SheetDB URL dalein
+      const GOOGLE_SCRIPT_URL = 'https://sheetdb.io/api/v1/yvu4ufyuny4n0';
+
+      const form = document.getElementById('contactForm');
+      const submitBtn = document.getElementById('submitBtn');
+      const successModal = new bootstrap.Modal(document.getElementById('successModal'));
+
+      // Make sure the form exists before attaching the listener to avoid errors on other pages
+      if (form) {
+        form.addEventListener('submit', function (event) {
+          event.preventDefault();
+          
+          if (!form.checkValidity()) {
+            event.stopPropagation();
+            form.classList.add('was-validated');
+            return;
+          }
+
+          // Button ko disable karein takki double submit na ho
+          submitBtn.disabled = true;
+          submitBtn.innerText = "Sending...";
+
+          // Form Data ko URL-encoded format me prepare karein
+          const formData = new FormData(form);
+          const encodedData = new URLSearchParams();
+
+          formData.forEach((value, key) => {
+            encodedData.append(key, value);
+          });
+
+          // Data ko API par bhejein
+          fetch(GOOGLE_SCRIPT_URL, {
+            method: 'POST',
+            mode: 'no-cors', // CORS error se bachne ke liye
+            headers: {
+              'Content-Type': 'application/x-www-form-urlencoded'
+            },
+            body: encodedData.toString()
+          })
+          .then(() => {
+            // Success popup show karein aur form clear karein
+            successModal.show();
+            form.reset();
+            form.classList.remove('was-validated');
+          })
+          .catch(error => {
+            console.error('Error:', error);
+            alert('Network delay encountered. Please try again.');
+          })
+          .finally(() => {
+            // Button ko wapas normal state me layein
+            submitBtn.disabled = false;
+            submitBtn.innerText = "Send Message";
+          });
+
+        }, false);
+      }
+    });
+  </script>
+
+<!-- /Contact JS Script -------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- NewsLatter JS ------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<script>
+ document.getElementById('newsletterForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+
+  const emailInput = document.getElementById('newsletterEmail');
+  const submitBtn = document.getElementById('newsletterBtn');
+  const errorMsg = document.getElementById('newsletterError');
+
+  const email = emailInput.value.trim();
+
+  // अधिक सटीक ईमेल वैलिडेशन रेगेक्स (Robust Email Regex)
+  const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+
+  if (!emailRegex.test(email)) {
+    errorMsg.style.display = "block";
+    errorMsg.innerText = "Please enter a valid email address.";
+    return;
+  }
+
+  errorMsg.style.display = "none";
+  submitBtn.value = "Sending...";
+
+  // SheetDB API कॉल
+  fetch("https://sheetdb.io/api/v1/yvu4ufyuny4n0", {
+    method: "POST",
+    headers: {
+      "Accept": "application/json",
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+      data: [
+        {
+          EMAIL__: email
+        }
+      ]
+    })
+  })
+  .then(res => {
+    if (!res.ok) {
+      throw new Error("HTTP error " + res.status);
+    }
+    return res.json();
+  })
+  .then(data => {
+    console.log("Success:", data);
+
+    // Bootstrap Modal ट्रिगर करना
+    var successModal = new bootstrap.Modal(
+      document.getElementById('newsletterSuccessModal')
+    );
+    successModal.show();
+
+    document.getElementById('newsletterForm').reset();
+    submitBtn.value = "Subscribe";
+  })
+  .catch(err => {
+    console.error("Error:", err);
+    submitBtn.value = "Subscribe";
+    alert("Failed to subscribe. कृपया सुनिश्चित करें कि कोई एड-ब्लॉकर (AdBlocker) इसे ब्लॉक न कर रहा हो।");
+  });
+});
+</script>
+
+<!-- /NewsLatter JS ------------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+</body>
+
+<!-- /Body --------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+</html>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- NGSX ---------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
